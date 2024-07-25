@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>  
+    <style>
+        /*
+        min-width - menor valor de largura
+        max-width - maior valor de largura
+        */
+        body{
+            background-color: gray;
+        }
+        main{
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img{
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic voluptates sed deleniti quae eligendi a in nam optio praesentium officia provident corrupti, modi enim quod molestiae fugit. Dicta, voluptatum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus incidunt aliquam voluptate quod aut ratione est, odio similique, quibusdam, libero nobis sint tempore nisi? Sit harum nesciunt fugit ratione.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, rerum ex. Magni repudiandae enim voluptatibus asperiores rem alias nam, consectetur sapiente dolorum sequi fugit animi repellendus at ratione porro esse!
+        </p>
+        <picture>
+            <source media="(max-width:600px )" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="">
+        </picture>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit hic voluptates sed deleniti quae eligendi a in nam optio praesentium officia provident corrupti, modi enim quod molestiae fugit. Dicta, voluptatum!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla accusamus incidunt aliquam voluptate quod aut ratione est, odio similique, quibusdam, libero nobis sint tempore nisi? Sit harum nesciunt fugit ratione.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, rerum ex. Magni repudiandae enim voluptatibus asperiores rem alias nam, consectetur sapiente dolorum sequi fugit animi repellendus at ratione porro esse!
+            </p>
+    </main>
+</body>
+</html>
